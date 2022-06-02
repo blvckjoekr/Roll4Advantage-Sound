@@ -1,0 +1,37 @@
+html, body
+{
+    background-image: linear-gradient(to right, aquamarine, cyan);
+    
+}
+img
+{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+canvas
+{
+    background: whitesmoke;
+    display: block;
+    margin: 0 auto;
+}
+h1, h2, div
+{
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button
+{
+    color: blueviolet;
+}
+p, form
+{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+}
+img
+{
+    width: 250px;
+    height: 250px;
+}

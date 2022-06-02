@@ -1,0 +1,68 @@
+<!--Matthew DuPree-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll for Adantage</title>
+    <link href="Roll4Advantage.css" rel="stylesheet" type="text/css"/>
+    <canvas id="canvas"></canvas>
+    <!--I have to add "controls" in order for the sound to play due to Google Chrome blocking autoplay by default but once it starts it loops-->
+    <audio id="audio" loop controls src="sb_wonderful.mp3"></audio>
+    <script type="text/javascript" src="seratonin.js"></script>
+    <script type="text/javascript" src="healthBar.js"></script>
+    <script type="text/javascript" src="HitOrMiss.js"></script>
+    <script type="text/javascript" src="sb.js"></script>
+    <script type="text/javascript" src="Joe'sPort.js"></script>
+</head>
+<body>
+    <h1>
+        Roll for Advantage
+    </h1>
+   
+    <p>
+        If you hit the bar loses health and if you miss the bar will not lose health.
+        <br>
+        Reset when the health bar is depleted.
+    </p>
+    <br>
+    <button onclick="play()">Hit Or Miss</button>
+    <button onclick="location.reload();">Reset</button>    
+    <br>    
+    <div id="D20"></div>
+    <div id="AC"></div>
+    <div id="DC"></div>
+    <div id="Health"></div>
+    <br>
+    <br>
+    <br>
+
+</body>
+<body1>
+    <h1>Happy Time Countdown</h1>
+    <h4>    
+    <img id="happy" src="sadface.png"/>
+        <p id="countdownTimer">Having a bad day?</p>
+        <br>
+        <button onclick="whileDogs();" class="funWithButtons">Hope you like dogs</button>
+        <button onclick="whileCats();" class="funWithButtons">Or cats</button>
+    </h4>
+</body1>
+<body2>
+    <h1>Welcome</h1>
+    <br>
+    <img id="img" src="policeman.png"></img>
+    <p id="loginStatus" class="loginID"> Status of login...</p>
+    <br>
+    <form id="credSumbit" onsubmit="return false">
+        First Name: <input type="text" id="firstName"/>
+        <br>
+        Last Name: <input type="text" id="lastName"/>
+        <br>
+        Badge ID: <input type="number" id="badgeID"/>
+        <br>
+        <input type="submit" onclick="checkCreds()"/>
+    </form>
+</body2>
+</html>
